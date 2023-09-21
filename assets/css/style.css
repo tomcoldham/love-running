@@ -3,9 +3,19 @@
 margin:0;
 box-sizing: border-box;
 }
+/* General styles */
+body {min-height: 100vh;
+display:flex;
+flex-direction: column;
+/* generic property styles */
+color: #3a3a3a;
+}
 /* Header */
 header {background-color:lightcoral}
 /* Main */
-main {background-color: lightblue}
+main {background-color: lightblue;
+    flex: 1 0 auto;}
+/* make main element take up any surplus space to push footer down */
+
 /* Footer */
 footer {background-color: orange}
