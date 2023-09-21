@@ -1,3 +1,5 @@
+/* font styles added in */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /*Asterisk wildcard selector to oveeride default styles added by the broswer */
 * {padding: 0;
 margin:0;
@@ -13,6 +15,9 @@ font-family: 'lato', sans-serif;
 }
 /* Header */
 header {background-color:lightcoral}
+h1{
+   font-family: 'Oswald', sans-serif;
+}
 /* Main */
 main {background-color: lightblue;
     flex: 1 0 auto;}
