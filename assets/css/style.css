@@ -105,3 +105,10 @@ margin: 0 0.5rem;}
 main {
     margin-top: 79px;
 }
+/* large devices */
+@media screen and (min-width: 992px) {
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a
+}
+}
