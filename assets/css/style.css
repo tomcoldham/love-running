@@ -76,4 +76,32 @@ main {background-color: lightblue;
 /* make main element take up any surplus space to push footer down */
 
 /* Footer */
-footer {background-color: orange}
+footer {background-color: orange;}
+
+/* media query tablets and larger */
+@media screen and (min-width: 768px) {
+ /* HEADER */
+ nav {display: block;
+position: relative;
+box-shadow: none;
+width: fit-content;
+padding: right 1rem;}
+
+#menu {display:flex;
+}
+
+#menu > li {padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#logo {font-size: 280%;
+line-height: 75px;
+margin: 0 0.5rem;}
+
+/* main content */
+main {
+    margin-top: 79px;
+}
