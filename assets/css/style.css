@@ -72,11 +72,23 @@ nav {
 /* Main */
 main {background-color: lightblue;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 47px;}
 /* make main element take up any surplus space to push footer down */
 
 /* Footer */
-footer {background-color: orange;}
+#social-networks {text-align: center;
+padding: 20px 0;
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
+}
+
+#social-networks i {
+font-size: 160%;
+padding: 5%;
+color: #3a3a3a;}
+
+
 
 /* media query tablets and larger */
 @media screen and (min-width: 768px) {
